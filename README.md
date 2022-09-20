@@ -1,5 +1,5 @@
 
-# Simple Rock, Paper, Scissors [vs Computer]
+# Simple Rock, Paper, Scissors [vs Computer] 🖐🏽
 
 Classic game ROCK, PAPER, SCISSORS to play in the browser. Built with JavaScript.
 
@@ -11,7 +11,7 @@ Classic game ROCK, PAPER, SCISSORS to play in the browser. Built with JavaScript
 
 ## Live Demo
 
-- ⚡ [Click](#https://techie-teodor.github.io/rock-paper-scissor/)
+- ⚡[Demo](https://techie-teodor.github.io/rock-paper-scissor/)
 
 ## Future Features
 
