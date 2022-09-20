@@ -19,4 +19,4 @@ Classic game ROCK, PAPER, SCISSORS to play in the browser. Built with JavaScript
 
 - Add info-box for player
 
-- Update with Player II instead of 'Computer'
+- Update with Player II module
