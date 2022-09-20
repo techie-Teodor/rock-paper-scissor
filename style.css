@@ -1,0 +1,28 @@
+body, html {
+    height: 100%;
+    background-color: grey;
+}
+
+.choiceBtn{
+    line-height: 30px;
+    width: 150px;
+}
+
+
+#gameID {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nabla', cursive;
+    border: 3px solid;
+    border-radius: 25px;
+    border-color: grey;
+    padding: 10px;
+    background-image: url("12.jpg");
+    margin: auto;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
