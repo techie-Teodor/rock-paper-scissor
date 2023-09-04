@@ -1,6 +1,46 @@
 body, html {
     height: 100%;
-    background-color: grey;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.background {
+    z-index: -1;
+}
+
+.layer {
+    background-color: rgba(0, 0, 0, 0.7);
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    position: fixed;
+    height: auto;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+img {
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+@media screen and (max-width: 1080px) {
+    img {
+        left: 50%;
+        margin-left: -540px
+    }
+}
+
+.game-buttons {
+    display: flex;
+    justify-content: center;
 }
 
 .choiceBtn{
@@ -8,21 +48,21 @@ body, html {
     width: 150px;
 }
 
-
 #gameID {
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Nabla', cursive;
-    border: 3px solid;
-    border-radius: 25px;
-    border-color: grey;
     padding: 10px;
-    background-image: url("12.jpg");
     margin: auto;
     width: 100%;
     max-width: 400px;
     height: auto;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
     text-align: center;
 }
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+    color: white;
+}
+
+/* a {
+    color: white;
+} */

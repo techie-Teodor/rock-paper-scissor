@@ -4,22 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rock - Paper - Scissors</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&family=Nabla&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="background">
+        <img src="/bg.jpg" alt="background">
+        <div class="layer">
+        </div>
+    </div>
     <div id="gameID">
         <h1 class="gameText" id="playerText">Player: </h1>
         <h1 class="gameText" id="computerText">Computer: </h1>
         <h1 class="gameText" id="resultText">Result: </h1>
-
+        <div class="game-buttons">
         <button class="choiceBtn">Rock</button>
         <button class="choiceBtn">Paper</button>
         <button class="choiceBtn">Scissors</button>
+        </div>
 
+        <!-- <a class="winnerScore" id="winnerScore">The Score is:</a> -->
     </div>
 <script src="index.js"></script>
 </body>
