@@ -2,6 +2,7 @@ const playerText = document.querySelector("#playerText");
 const computerText = document.querySelector("#computerText");
 const resultsText = document.querySelector("#resultText");
 const choiceBtns = document.querySelectorAll(".choiceBtn");
+const winnerScore = document.querySelectorAll(".winnerScore");
 
 let player;
 let computer;
